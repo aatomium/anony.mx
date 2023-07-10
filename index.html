@@ -12,14 +12,15 @@
   <body>
     <main>
       <h1>anony.mx - well right now there is just a chat</h1>
-      <div class="messages_container">
-        <p> Orian - Hello world</p>
-        <p> Autre - Bonsoir !</p>
-      </div>
+      <div id="messages_container"></div>
       <form id="form_send_message">
-        <div class="send_message">
+        <form class="send_message">
           <input class="message_box" id="message_to_send">
-          <input class="send_button" id="send_button" type="button" value="Envoyer message">
+          <input class="send_button" id="send_button" type="reset" value="Envoyer message">
+        </form>
+        <div class="set_pseudo">
+          <label for="pseudo"><br><br>pseudo : </label>
+          <input class="pseudo_box" id="pseudo">
         </div>
       </form>
     </main>
